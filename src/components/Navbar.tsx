@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import '../styles/components/navbar.css';
@@ -36,9 +37,12 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link href="/" className="navbar-logo">
-            <img 
+            <Image 
               src="/images/Nav-logo.svg.svg" 
               alt="Dawg Team Logo" 
+              width={140}
+              height={85}
+              priority
               className="logo-image"
             />
           </Link>
