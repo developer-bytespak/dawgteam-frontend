@@ -21,7 +21,7 @@ export default function Home() {
           </h1>
           
           <p className="text-lg md:text-xl text-white/95 max-w-3xl mx-auto leading-relaxed font-medium">
-            Our mission at Dawg Team Apparel is to create a loving and joyful environment for pets and their owners, offering top-notch products and services that ensure every pet's well-being and every family's peace of mind and happiness.
+            Our mission at Dawg Team Apparel is to create a loving and joyful environment for pets and their owners, offering top-notch products and services that ensure every pet&apos;s well-being and every family&apos;s peace of mind and happiness.
           </p>
         </div>
       </section>
